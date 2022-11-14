@@ -1,2 +1,4 @@
 # bootstarp-php-
-使用bootstarp + php + jq写成论坛系统
+使用bootstarp + php + jq 完成论坛系统
+缺陷有：1.使用百度富文本框2.数据删除是真的删除了数据库所有没有保留
+发表文章需要有栏目才能发表
