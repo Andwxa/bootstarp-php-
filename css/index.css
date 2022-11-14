@@ -1,0 +1,54 @@
+.teme{
+    height: 240px;
+    padding-top: 1px;
+    background-color: #e7e7e7; 
+    box-shadow:0 0 10px 10px #FAFAFA inset;
+    margin-top: 5px;
+    text-align: center;
+}
+.scroll-container{
+    color: #999999;
+    font-weight: bold;
+    font-size: 24px;
+}
+.scroll{
+    height: 50px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.scroll div:first-child{
+    animation: show 5s linear infinite;
+}
+.scroll > div > div{
+    color: #ffffff;
+    height: 45px;
+    padding:4px 12px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+.scroll div div{
+    background-color: #42c58a;
+}
+.scroll div:nth-child(2) div{
+    background-color: #4ec7f3;
+}
+.scroll div:nth-child(3) div{
+    background-color: #fdcb6e;
+}
+@keyframes show{
+    0% {
+        margin-top: -270px;
+    }
+    5%,35%{
+        margin-top: -170px;
+    }
+    40%,65%{
+        margin-top: -80px;
+    }
+    70% ,99.99%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: -280px;
+    }
+}
